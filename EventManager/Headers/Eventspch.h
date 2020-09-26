@@ -2,7 +2,7 @@
 #define PCH_H
 
 #include "framework.h"
-#include "Core.h"
+#include "EventsCore.h"
 
 
 #endif

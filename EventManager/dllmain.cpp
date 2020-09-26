@@ -1,4 +1,6 @@
-#include "pch.h"
+#include "Eventspch.h"
+#include "EventHandler.h"
+#include "EventsCore.h"
 
 using namespace std;
 
@@ -17,6 +19,8 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     }
     return TRUE;
 }
+
+
 
 
 

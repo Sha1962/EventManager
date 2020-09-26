@@ -6,13 +6,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Headers\EventHandler.h">
+    <ClInclude Include="Headers\LoggerCore.h">
       <Filter>Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Headers\EventsCore.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Eventspch.h">
+    <ClInclude Include="Headers\Loggerpch.h">
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Headers\PlatformDetection.h">
@@ -27,6 +24,6 @@
     <ClCompile Include="pch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="EventManager.lua" />
+    <None Include="Logger.lua" />
   </ItemGroup>
 </Project>

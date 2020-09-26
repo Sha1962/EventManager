@@ -3,7 +3,9 @@
 #include <iostream>
 #include <Windows.h>
 
-#include "Core.h"
+#include "LoggerCore.h"
+#include "EventsCore.h"
+
 
 
 

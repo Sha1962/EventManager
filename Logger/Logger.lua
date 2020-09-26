@@ -1,4 +1,4 @@
-project "EventManager"
+project "Logger"
 	kind "SharedLib"
 	language "C++"
 
@@ -9,18 +9,12 @@ project "EventManager"
 	{
 		"**.h",
 		"**.cpp",
-		"EventManager.lua"
+		"Logger.lua"
 	}
 
 	includedirs {
-		"Headers",
-		"../Logger/Headers"
+		"Headers"
     }
-
-	links
-	{
-		"Logger"
-	}
 	
 	filter "system:windows"
 		cppdialect "C++latest"

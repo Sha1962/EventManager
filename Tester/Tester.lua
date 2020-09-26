@@ -13,12 +13,14 @@ project "Tester"
 	}
 
 	includedirs {
-		"../EventManager/Headers"	
-    	}
+		"../EventManager/Headers",
+		"../Logger/Headers"
+    }
 	
 	links
 	{
-		"EventManager"
+		"EventManager",
+		"Logger"
 	}
 
 	filter "system:windows"
